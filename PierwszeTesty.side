@@ -1395,6 +1395,18 @@
       ],
       "value": ""
     }, {
+      "id": "052a9ab7-861c-46e0-a333-d2b5b23576cb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//ul[3]/li",
+      "targets": [
+        ["css=.\\31 0098", "css:finder"],
+        ["xpath=//ul[@id='iw-contextMenu1210']/li", "xpath:idRelative"],
+        ["xpath=//ul[3]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Oferta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "51af6148-e8f0-4eee-aadd-b6a27ce4b6a4",
       "comment": "",
       "command": "type",
@@ -1409,18 +1421,18 @@
       ],
       "value": "sel"
     }, {
-      "id": "2d4b38c6-aae5-42bb-9e3b-1e56427b2303",
+      "id": "b6b556ee-448d-4185-b2f8-efce073eda09",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Kontrahent Selenium - 8996150725')]",
+      "target": "xpath=//a[contains(.,'KonSell NIP:8996150725')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Kontrahent Selenium - 8996150725", "linkText"],
+        ["linkText=KonSell NIP:8996150725", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Kontrahent Selenium - 8996150725')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'KonSell NIP:8996150725')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
         ["xpath=//ul[2]/li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Kontrahent Selenium - 8996150725')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'KonSell NIP:8996150725')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1499,18 +1511,18 @@
       ],
       "value": "selenium"
     }, {
-      "id": "00482896-4774-40de-ab5c-5c753eb028b0",
+      "id": "dbe731e7-8340-4a69-adc8-e0157579d8c1",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Produkt selenium (11111)')]",
+      "target": "xpath=//a[contains(text(),'Produkt selenium (KW:s100, KP:11111)')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Produkt selenium (11111)", "linkText"],
+        ["linkText=Produkt selenium (KW:s100, KP:11111)", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Produkt selenium (11111)')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'Produkt selenium (KW:s100, KP:11111)')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//ul[4]/li[3]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Produkt selenium (11111)')]", "xpath:innerText"]
+        ["xpath=//ul[5]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Produkt selenium (KW:s100, KP:11111)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1600,18 +1612,18 @@
       ],
       "value": "selenium"
     }, {
-      "id": "93317080-2122-4516-a557-32548b758876",
+      "id": "81a95285-9061-4385-b3f6-72f35ddf426d",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Drugi produkt selenium (22222)')]",
+      "target": "xpath=//a[contains(text(),'Drugi produkt selenium (KW:s200, KP:22222)')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Drugi produkt selenium (22222)", "linkText"],
+        ["linkText=Drugi produkt selenium (KW:s200, KP:22222)", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Drugi produkt selenium (22222)')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'Drugi produkt selenium (KW:s200, KP:22222)')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//ul[4]/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Drugi produkt selenium (22222)')]", "xpath:innerText"]
+        ["xpath=//ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Drugi produkt selenium (KW:s200, KP:22222)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -1690,18 +1702,18 @@
       ],
       "value": "selenium"
     }, {
-      "id": "33e874c1-f1f6-4e75-a982-971325e66dcd",
+      "id": "ad7416c2-cf58-44cb-88ad-f0c88a4971b7",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Trzeci produkt selenium (33333)')]",
+      "target": "xpath=//a[contains(text(),'Trzeci produkt selenium (KW:s300, KP:33333)')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Trzeci produkt selenium (33333)", "linkText"],
+        ["linkText=Trzeci produkt selenium (KW:s300, KP:33333)", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Trzeci produkt selenium (33333)')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'Trzeci produkt selenium (KW:s300, KP:33333)')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//ul[4]/li[3]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Trzeci produkt selenium (33333)')]", "xpath:innerText"]
+        ["xpath=//ul[5]/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trzeci produkt selenium (KW:s300, KP:33333)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -2057,15 +2069,15 @@
       ],
       "value": ""
     }, {
-      "id": "5599157a-f429-4454-8d26-faa64b7e8295",
+      "id": "c9d962b6-c916-4416-9c6a-90151347293d",
       "comment": "",
       "command": "click",
-      "target": "xpath=//tr[5]/td[7]/div/a[2]",
+      "target": "xpath=//a[2]",
       "targets": [
-        ["css=#\\31 0362 .buttonIconDelete", "css:finder"],
-        ["xpath=//tr[@id='10362']/td[7]/div/a[2]", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, \"javascript:DeleteDocument('10362','2400','Sprawa selenium')\")]", "xpath:href"],
-        ["xpath=//tr[5]/td[7]/div/a[2]", "xpath:position"]
+        ["css=#\\31 0405 .buttonIconDelete", "css:finder"],
+        ["xpath=//tr[@id='10405']/td[8]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:DeleteDocument('10405','2400','Sprawa selenium')\")]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -7578,170 +7590,6 @@
       "value": ""
     }]
   }, {
-    "id": "aa03e418-65b0-4092-ac74-86900faf2fc3",
-    "name": "Celowe wywołanie błędu (dla testów screenshot)",
-    "commands": [{
-      "id": "352da13a-6640-4ecc-aef2-3765971a6736",
-      "comment": "",
-      "command": "open",
-      "target": "http://client.admicondev.pl/biuro/Tasks/TaskSchedule#",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "f3ab4046-6795-402d-ae54-c3ea0511ae04",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1158x776",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "46d64d82-e58b-4c49-b97b-49796b10a140",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Konfiguracja",
-      "targets": [
-        ["linkText=Konfiguracja", "linkText"],
-        ["css=#menuLI13 > .main > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Konfiguracja')]", "xpath:link"],
-        ["xpath=//li[@id='menuLI13']/div/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
-        ["xpath=//li[14]/div/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Konfiguracja')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "efdb2606-b2d8-469b-a266-c956ae695747",
-      "comment": "",
-      "command": "click",
-      "target": "css=.mCSB_dragger_bar",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "5eade30f-aabf-4cb6-95c2-6043d5fe1850",
-      "comment": "",
-      "command": "mouseDownAt",
-      "target": "id=mCSB_1_dragger_vertical",
-      "targets": [],
-      "value": "50,0"
-    }, {
-      "id": "91232623-2c5b-46bc-9a06-330b5968dc28",
-      "comment": "",
-      "command": "mouseMoveAt",
-      "target": "id=mCSB_1_dragger_vertical",
-      "targets": [],
-      "value": "50,300"
-    }, {
-      "id": "2778b9a8-c7b4-4eb6-9ebf-3d0f10b135c8",
-      "comment": "",
-      "command": "mouseUpAt",
-      "target": "id=mCSB_1_dragger_vertical",
-      "targets": [],
-      "value": "50,300"
-    }, {
-      "id": "93d185bd-2c50-437f-af00-a156ccd3fed0",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Schematy księgowania",
-      "targets": [
-        ["linkText=Schematy księgowania", "linkText"],
-        ["css=#listLI13 > #subLI4 > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Schematy księgowania')]", "xpath:link"],
-        ["xpath=(//li[@id='subLI4']/a)[14]", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '/biuro/Dictionary/AccountingSchemeDIC')]", "xpath:href"],
-        ["xpath=//li[14]/ul/li[5]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Schematy księgowania')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "7e0a5240-ed20-4989-9fdf-b989443c824f",
-      "comment": "",
-      "command": "click",
-      "target": "css=.fa-plus",
-      "targets": [
-        ["css=.fa-plus", "css:finder"],
-        ["xpath=//div[@id='addButton']/div/span", "xpath:idRelative"],
-        ["xpath=//td/div/div[2]/div/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b8c46a5e-ba35-439d-a07c-a99d8d7a871d",
-      "comment": "",
-      "command": "type",
-      "target": "id=Symbol",
-      "targets": [
-        ["id=Symbol", "id"],
-        ["name=Symbol", "name"],
-        ["css=#Symbol", "css:finder"],
-        ["xpath=//input[@id='Symbol']", "xpath:attributes"],
-        ["xpath=//form[@id='AccountingScheme']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div/div[2]/input", "xpath:position"]
-      ],
-      "value": "aaa"
-    }, {
-      "id": "082d79d3-73fa-4dcb-9129-df5f1e71620a",
-      "comment": "",
-      "command": "type",
-      "target": "id=Name",
-      "targets": [
-        ["id=Name", "id"],
-        ["name=Name", "name"],
-        ["css=#Name", "css:finder"],
-        ["xpath=//input[@id='Name']", "xpath:attributes"],
-        ["xpath=//form[@id='AccountingScheme']/div[2]/div/div[2]/div/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
-      ],
-      "value": "aaa"
-    }, {
-      "id": "36a443d5-c06e-4838-b0e1-a12fa83a7e53",
-      "comment": "",
-      "command": "select",
-      "target": "id=ObjectTypeCathegoryId",
-      "targets": [],
-      "value": "label=Dokument przychodzący"
-    }, {
-      "id": "23fcf3ad-2fb6-4085-80e7-cff86e33eddf",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Zapisz",
-      "targets": [
-        ["linkText=Zapisz", "linkText"],
-        ["css=.buttonGreen", "css:finder"],
-        ["xpath=//a[contains(text(),'Zapisz')]", "xpath:link"],
-        ["xpath=//a[@onclick='Save();']", "xpath:attributes"],
-        ["xpath=//form[@id='AccountingScheme']/div[2]/div/div[4]/a[2]", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[4]", "xpath:href"],
-        ["xpath=//div[4]/a[2]", "xpath:position"],
-        ["xpath=//a[contains(.,'Zapisz')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "55d06cc9-7fb2-459f-bc04-82de4ad32d1d",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=OK",
-      "targets": [
-        ["linkText=OK", "linkText"],
-        ["css=.editorDialogCloseButton", "css:finder"],
-        ["xpath=//a[contains(text(),'OK')]", "xpath:link"],
-        ["xpath=//div[@id='editorDialog']/div[2]/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[5]", "xpath:href"],
-        ["xpath=//div[5]/div[2]/div[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'OK')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "f8ac1f2d-39c6-487b-b8fe-cca54fcd070b",
-      "comment": "",
-      "command": "click",
-      "target": "css=.ui-dialog-titlebar-close",
-      "targets": [
-        ["css=.ui-dialog-titlebar-close", "css:finder"],
-        ["xpath=(//a[contains(@href, '#')])[17]", "xpath:href"],
-        ["xpath=//body/div[3]/div/a", "xpath:position"]
-      ],
-      "value": ""
-    }]
-  }, {
     "id": "7675dfcf-7f2c-4413-b99e-95a3288b934a",
     "name": "11. Wniosek serwisowy",
     "commands": [{
@@ -7848,7 +7696,7 @@
       "command": "select",
       "target": "id=fgen-field-Equipment",
       "targets": [],
-      "value": "label=Komputer stacjonarny PC63241515"
+      "value": "label=Komputer stacjonarny"
     }, {
       "id": "f40865ab-dbba-4f4f-9758-921d2b9e0ff1",
       "comment": "",
@@ -7991,7 +7839,7 @@
       "id": "da0b6b46-75ed-4971-8239-ebaf317485a3",
       "comment": "",
       "command": "click",
-      "target": "linkText=Dodaj",
+      "target": "linkText=OK",
       "targets": [
         ["linkText=Dodaj", "linkText"],
         ["css=.buttonGreen", "css:finder"],
@@ -8025,18 +7873,19 @@
       ],
       "value": "Kontrahent Selenium"
     }, {
-      "id": "0ba4328b-10bf-4e46-9ad9-cc52671403f3",
+      "id": "daba4b8c-d8b9-4d03-929d-8cf18c5b0bea",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Kontrahent Selenium - 8996150725')]",
+      "target": "xpath=//a[contains(text(),'KonSell NIP:8996150725')]",
       "targets": [
-        ["id=ui-active-menuitem", "id"],
-        ["linkText=Kontrahent Selenium - 8996150725", "linkText"],
-        ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Kontrahent Selenium - 8996150725')]", "xpath:link"],
-        ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//body/ul/li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Kontrahent Selenium - 8996150725')]", "xpath:innerText"]
+        ["id=ui-id-3", "id"],
+        ["linkText=KonSell NIP:8996150725", "linkText"],
+        ["css=#ui-id-3", "css:finder"],
+        ["xpath=//a[contains(text(),'KonSell NIP:8996150725')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-3']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-2']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KonSell NIP:8996150725')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -8072,18 +7921,18 @@
       ],
       "value": "Monitor Selenium"
     }, {
-      "id": "08bb2d9c-4322-447b-a9be-13f160fce4a3",
+      "id": "d3287dec-f47d-48a6-b224-b2bee4a0e42f",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Monitor Selenium - Panasonic (0006)')]",
+      "target": "xpath=//a[contains(text(),'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Monitor Selenium - Panasonic (0006)", "linkText"],
+        ["linkText=Monitor Selenium - Panasonic (KW:1234, KP:0006)", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Monitor Selenium - Panasonic (0006)')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
         ["xpath=//ul[4]/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Monitor Selenium - Panasonic (0006)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -8279,18 +8128,18 @@
       ],
       "value": "Kontrahent Selenium"
     }, {
-      "id": "e21691ce-66a1-4878-a16c-7203b17e940b",
+      "id": "527df939-48ac-4a48-88c4-d1cb0eb69066",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Kontrahent Selenium - 8996150725')]",
+      "target": "xpath=//a[contains(text(),'KonSell NIP:8996150725')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Kontrahent Selenium - 8996150725", "linkText"],
+        ["linkText=KonSell NIP:8996150725", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Kontrahent Selenium - 8996150725')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'KonSell NIP:8996150725')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//body/ul/li[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Kontrahent Selenium - 8996150725')]", "xpath:innerText"]
+        ["xpath=//body/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'KonSell NIP:8996150725')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -8369,18 +8218,18 @@
       ],
       "value": "Monitor Selenium"
     }, {
-      "id": "d4f59b57-a28a-46c3-86c5-ebbeffc053f8",
+      "id": "a1bbfc9a-1357-404c-9b81-8fceccb0b62a",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Monitor Selenium - Panasonic (0006)')]",
+      "target": "xpath=//a[contains(text(),'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Monitor Selenium - Panasonic (0006)", "linkText"],
+        ["linkText=Monitor Selenium - Panasonic (KW:1234, KP:0006)", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Monitor Selenium - Panasonic (0006)')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
         ["xpath=//body/ul/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Monitor Selenium - Panasonic (0006)')]", "xpath:innerText"]
+        ["xpath=//a[contains(.,'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -8409,14 +8258,51 @@
       ],
       "value": "2"
     }, {
-      "id": "2c54ee0f-8ade-4d2c-923d-1c5824e60ba4",
+      "id": "40c0895f-5269-47a0-8e42-70cf9a1a6cce",
       "comment": "",
       "command": "click",
-      "target": "css=.blackBoxLeftContent > .blackBoxFlexRow:nth-child(7)",
+      "target": "css=.s3Expand",
       "targets": [
-        ["css=.blackBoxLeftContent > .blackBoxFlexRow:nth-child(7)", "css:finder"],
-        ["xpath=//form[@id='ExternalRequestServiceValuationComponents']/div[2]/div/div/div/div[7]", "xpath:idRelative"],
-        ["xpath=//form/div[2]/div/div/div/div[7]", "xpath:position"]
+        ["css=.s3Expand", "css:finder"],
+        ["xpath=//img[@alt='Rozwiń']", "xpath:img"],
+        ["xpath=//div[@id='additionalProductSerialNoToValuation']/h3/img", "xpath:idRelative"],
+        ["xpath=//h3/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bad774b6-40f0-4072-9d54-0c3d291e77fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttonIconAdd",
+      "targets": [
+        ["css=.buttonIconAdd", "css:finder"],
+        ["xpath=//div[@id='addSectionValuation']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:AddValuationProductSerialNoRowView()')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79d71524-d54f-4bc1-909d-8048915c13c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='ValuationPositionProductSerialNoModel_f517a0f7_8134_4b43_af94_dcc1d8ef1b1c__ProductSerialNoId_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Wybierz serię produktu...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4ead3e9-9d6a-403a-b1b4-129a0cf804cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result",
+      "targets": [
+        ["css=.active-result", "css:finder"],
+        ["xpath=//div[@id='ValuationPositionProductSerialNoModel_f517a0f7_8134_4b43_af94_dcc1d8ef1b1c__ProductSerialNoId_chosen']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'001 - Ilość: 12, Magazyn: Magazyn Kasi')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -8436,6 +8322,13 @@
       ],
       "value": ""
     }, {
+      "id": "2786d070-dd47-43b4-bb56-57df34a5c117",
+      "comment": "",
+      "command": "waitForElementNotVisible",
+      "target": "css=#primaryContentSpinner img",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "52b6b20a-189c-4fe8-a22c-6beaec320bfc",
       "comment": "",
       "command": "click",
@@ -8449,6 +8342,17 @@
         ["xpath=(//a[contains(@href, 'javascript:void(0)')])[4]", "xpath:href"],
         ["xpath=//div[3]/a[2]", "xpath:position"],
         ["xpath=//a[contains(.,'Generuj ofertę')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf38056f-1dbd-49fd-a4c1-82f6175f6d16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iw-mSelected",
+      "targets": [
+        ["css=.iw-mSelected", "css:finder"],
+        ["xpath=//ul[@id='iw-contextMenu1810']/li", "xpath:idRelative"],
+        ["xpath=//ul[4]/li", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -8755,18 +8659,18 @@
       ],
       "value": "Dostawca Selenium"
     }, {
-      "id": "497c8eb6-5ada-4f01-9333-67815aef3c1f",
+      "id": "6474b253-bace-48c5-9ab3-148a72e2c8f0",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Dostawca Selenium - 2238735071')]",
+      "target": "xpath=//a[contains(text(),'DosSel NIP:2238735071')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Dostawca Selenium - 2238735071", "linkText"],
+        ["linkText=DosSel NIP:2238735071", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Dostawca Selenium - 2238735071')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'DosSel NIP:2238735071')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//body/ul/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Dostawca Selenium - 2238735071')]", "xpath:innerText"]
+        ["xpath=//ul[5]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DosSel NIP:2238735071')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -9011,18 +8915,18 @@
       ],
       "value": "Dostawca Selenium"
     }, {
-      "id": "e9cb013d-1692-4f6f-96be-c42d28d22236",
+      "id": "9cd1ea70-12ed-42b8-82a1-5b6572789f83",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Dostawca Selenium - 2238735071')]",
+      "target": "xpath=//a[contains(text(),'DosSel NIP:2238735071')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Dostawca Selenium - 2238735071", "linkText"],
+        ["linkText=DosSel NIP:2238735071", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Dostawca Selenium - 2238735071')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'DosSel NIP:2238735071')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//body/ul/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Dostawca Selenium - 2238735071')]", "xpath:innerText"]
+        ["xpath=//ul[6]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'DosSel NIP:2238735071')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -9127,18 +9031,18 @@
       ],
       "value": "Monitor Selenium"
     }, {
-      "id": "0287341d-15ce-409c-b89b-f0d34c25586f",
+      "id": "987efda9-0a83-461d-b85d-3385de20c9cf",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[contains(text(),'Monitor Selenium - Panasonic (0006)')]",
+      "target": "xpath=//a[contains(text(),'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]",
       "targets": [
         ["id=ui-active-menuitem", "id"],
-        ["linkText=Monitor Selenium - Panasonic (0006)", "linkText"],
+        ["linkText=Monitor Selenium - Panasonic (KW:1234, KP:0006)", "linkText"],
         ["css=#ui-active-menuitem", "css:finder"],
-        ["xpath=//a[contains(text(),'Monitor Selenium - Panasonic (0006)')]", "xpath:link"],
+        ["xpath=//a[contains(text(),'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]", "xpath:link"],
         ["xpath=//a[@id='ui-active-menuitem']", "xpath:attributes"],
-        ["xpath=//ul[4]/li/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Monitor Selenium - Panasonic (0006)')]", "xpath:innerText"]
+        ["xpath=//ul[10]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Monitor Selenium - Panasonic (KW:1234, KP:0006)')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -9570,6 +9474,17 @@
         ["xpath=//input[@id='gs_grid_Title']", "xpath:attributes"],
         ["xpath=//div[@id='gview_grid']/div[3]/div/table/thead/tr[2]/th[10]/div/table/tbody/tr/td[2]/input", "xpath:idRelative"],
         ["xpath=//th[10]/div/table/tbody/tr/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed6ec6b5-6648-42f6-9964-406d2a244830",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-state-hover > span",
+      "targets": [
+        ["css=.ui-state-hover > span", "css:finder"],
+        ["xpath=//div[@id='gview_grid']/div[3]/div/table/thead/tr[2]/th[10]/div/table/tbody/tr/td[3]/a/span", "xpath:idRelative"],
+        ["xpath=//th[10]/div/table/tbody/tr/td[3]/a/span", "xpath:position"]
       ],
       "value": ""
     }, {
